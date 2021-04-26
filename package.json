@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "Odin project assignment, using webpack and modules",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tian-1800/restaurant_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tian-1800/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/tian-1800/restaurant_page#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}

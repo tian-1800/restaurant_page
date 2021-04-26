@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+
+body {
+  font-family: "Raleway", Helvetica;
+  text-align: center;
+  background-color: #333;
+  color: aliceblue;
+}
+
+#tab-menu {
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    color: rgb(35,35,35);
+    justify-content: center;
+}
+.tab-item {
+    width : 15%;
+    line-height: 3em;
+    box-sizing: border-box;
+    border: solid 1px;
+    cursor: pointer;
+}
+#content {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+#img-resto {
+    width: 100%;
+    max-width: 720px;
+}
+#food-desc-container {
+    margin-top: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+.img-food, .desc-food {
+    width: 50%;
+    max-width: 500px;
+}
