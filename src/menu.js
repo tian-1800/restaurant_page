@@ -49,7 +49,7 @@ const foodChoice = (el) => {
     }
 }
 
-const menuHeadText = '<h2>Menu</h2>';
+const menuHeadText = '<h2 id="menu-header">Menu</h2>';
 const menu0 = '<option value="" disabled selected hidden>-Select menu-</option>';
 let menuList = (() => {
     let text = "";
@@ -61,13 +61,12 @@ let menuList = (() => {
 const menuDropDown = `${menuHeadText}<div><select>${menu0}${menuList}</select></div>`;
 
 const menuLoad = () => {
+    //document.getElementById('home-page').style.display = 'none';
     let menuContent = document.getElementById('content');
-    let imgResto = document.getElementById('img-resto');
     const newElement = document.createElement('div');
     newElement.id = 'food-desc-container';
     menuContent.innerHTML = menuDropDown;
     menuContent.appendChild(newElement);
-    imgResto.style.display = 'none';
     foodChoice(newElement);
     //newElement.innerHTML = "hehe";
 }
